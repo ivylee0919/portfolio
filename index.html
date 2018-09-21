@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html lang="zh">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="row">
+            <div class="col-md-2">
+                <img class="img-responsive title-logo" src="img/logo.png" alt="udacity-logo">
+            </div>
+            <div class="col-md-10 text-uppercase text-right">
+                <h1 class="super-title">
+                    Ivy Lee
+                </h1>
+                <h4>
+                    Life-long learner
+                </h4>
+            </div>
+        </header>
+        <article class="main-article">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <img class="img-responsive center-block" src="img/students-first.jpg" alt="students-first">
+                </div>
+                <div class="col-md-4">
+                    <p class="lead">
+                        这里是 Ivy 的作品集。<br /> 其中包含了多个项目的链接和介绍。
+                    </p>
+
+                    <p class="lead">
+                        这些项目是 Ivy 学习 Udacity 纳米学位过程中完成的。 Ivy 已经完成了编程入门、机器学习入门、商业数据分析、前端入门的纳米学位， 顺利拿到了这些纳米学位的毕业证书。<br />
+                        <br />目前她正在攻克前端进阶纳米学位，Keep Learning!
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title-vague">
+                        Feature Work
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/game-code.png" alt="game code" data-toggle="modal" data-target="#project1">
+                    <h3 class="text-uppercase">
+                        Python
+                    </h3>
+                    <p>
+                        <a href="https://github.com/ivylee0919/fill-in-the-blanks">Fill in The Blanks</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/baseball.png" alt="baseball" data-toggle="modal" data-target="#project2">
+                    <h3 class="text-uppercase">
+                        Data
+                    </h3>
+                    <p>
+                        <a href="https://github.com/ivylee0919/Baseball_Data_Analysis">Baseball Data Analysis</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/movie-trailer.png" alt="movie trailer" data-toggle="modal" data-target="#project3">
+                    <h3 class="text-uppercase">
+                        Website
+                    </h3>
+                    <p>
+                        <a href="https://github.com/ivylee0919/movie_website">My Favorite Movies</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+
+
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="game" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="game">Fill in The Blanks</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/game-process.png" alt="game process">
+                    <p class='project-description'>
+                        这是我第一个 Python 项目，做的是一个填空小游戏，这个项目主要锻炼了我的逻辑思维能力、整合代码的能力，以及解决问题的能力，这些是不管用什么编程语言，都需要的能力，真正有了入门的感觉。
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="baseball" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="baseball">Baseball Data Analysis</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/baseball-chart.png" alt="baseball chart">
+                    <p class='project-description'>
+                        棒球数据集，这是一个挑战。因为我本身对棒球运动知之甚少，通过观看《点球成金》电影，查询各种棒球相关的链接，逐步找到了衡量一名棒球运动员的指标。这是对数据分析领域的一次深入探索，非常深刻的学习体验！
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="movie" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="movie">My Favorite Movies</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/movie-code.png" alt="movie code">
+                    <p class='project-description'>
+                        这是一个最喜爱的电影网站，点击电影海报可以打开预告片。难点在于课程中使用 youtube 链接，而我想要实现的是即支持 youtube 链接又支持 youku 链接。最终修改了项目提供的支持代码，如上图所示，学到了正则表达式的相关内容。
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

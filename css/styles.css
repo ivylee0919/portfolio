@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+}
+
+hr {
+    /*参考资料：https://www.jianshu.com/p/7d07732c8dad*/
+    /* margin-top: 7px;
+    /*解决ie和ff margin-top不一致问题*/
+    /*margin: 0; */
+    border: 0;
+    /*是去掉fierfoxf的一条阴影线*/
+    color: #7d97ad;
+    /*是设置ie老版本水平线的颜色；*/
+    background-color: #7d97ad;
+    height: 3px;
+    /* 水平高度*/
+}
+
+.super-title {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.title-logo {
+    margin-top: 30px;
+}
+
+.title-vague {
+    color: #7d97ad;
+}
+
+.project-description {
+    margin: 20px;
+}
